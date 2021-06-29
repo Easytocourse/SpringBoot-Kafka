@@ -1,0 +1,8 @@
+Start the Zookeeper:     .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+start the kafka:    .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+List the topics:   .\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+
+list the N messages:  https://stackoverflow.com/questions/52625995/how-to-fetch-recent-messages-from-kafka-topic
+
